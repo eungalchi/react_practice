@@ -1,1 +1,1 @@
-# react 연습용
+# react practice for Naver burning Day Hackerton
