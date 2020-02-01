@@ -1,10 +1,10 @@
 import React from 'react';
 //import logo from './logo.svg';
-import Counter from './Counter';
+import Say from './Say';
 import './App.css';
 
 const App = () => {
-  return <Counter />;
+  return <Say />;
 };
 
 export default App;
