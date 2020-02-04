@@ -1,22 +1,19 @@
-import React from 'react';
 //import logo from './logo.svg';
-import EventPratice from './EventPractice';
-import './App.css';
+import ScrollBox from './ScrollBox';
 
-const App = () => {
-  return <EventPratice />;
-};
+import React, { Component } from 'react';
+
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <ScrollBox ref={ref => (this.ScrollBox = ref)} />
+        <button onClick={() => this.ScrollBox.scrollToBotton()}>
+          맨 밑으로
+        </button>
+      </div>
+    );
+  }
+}
 
 export default App;
-// function App() {
-//   const name = '리액트';
-
-//   return (
-//     <>
-//       <div className="react"> {name} </div>
-//       <input />
-//       <h2>wdfd</h2>
-//       <h3>dfasdfdfd</h3>
-//     </>
-//   );
-// }
