@@ -1,10 +1,10 @@
 import React from 'react';
 //import logo from './logo.svg';
-import Say from './Say';
+import EventPratice from './EventPractice';
 import './App.css';
 
 const App = () => {
-  return <Say />;
+  return <EventPratice />;
 };
 
 export default App;
